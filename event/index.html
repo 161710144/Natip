@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Part 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+ 	<h1>EVENT</h1>
+ 	<button id="tombol">tampilkan/sembunyikan</button>
+ 	<div class="box"></div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#tombol').click(function(){
+			$('.box').slideToggle();
+		});
+	});
+</script>
+</html>
